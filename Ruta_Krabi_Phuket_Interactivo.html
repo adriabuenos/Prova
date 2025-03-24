@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3ad8e441119aa275b2374c310d68bf43 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_3ad8e441119aa275b2374c310d68bf43" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3ad8e441119aa275b2374c310d68bf43 = L.map(
+                "map_3ad8e441119aa275b2374c310d68bf43",
+                {
+                    center: [8.1, 98.6],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_eabeac789a22a38a86bb2a79b876ab10 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_3ad8e441119aa275b2374c310d68bf43);
+        
+    
+            var marker_27384df60b476c1d2ae9f39a76e66a97 = L.marker(
+                [8.0726, 98.9105],
+                {}
+            ).addTo(map_3ad8e441119aa275b2374c310d68bf43);
+        
+    
+            var icon_4b6eddb12a3dc9f04ddc6b0a069ed301 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_27384df60b476c1d2ae9f39a76e66a97.setIcon(icon_4b6eddb12a3dc9f04ddc6b0a069ed301);
+        
+    
+        var popup_ac6d4c78c0c47b64a29fa25585cfe1f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_83836196076fb5886cd6370880f126d8 = $(`<div id="html_83836196076fb5886cd6370880f126d8" style="width: 100.0%; height: 100.0%;">Krabi Town: Punto de salida</div>`)[0];
+            popup_ac6d4c78c0c47b64a29fa25585cfe1f9.setContent(html_83836196076fb5886cd6370880f126d8);
+        
+
+        marker_27384df60b476c1d2ae9f39a76e66a97.bindPopup(popup_ac6d4c78c0c47b64a29fa25585cfe1f9)
+        ;
+
+        
+    
+    
+            marker_27384df60b476c1d2ae9f39a76e66a97.bindTooltip(
+                `<div>
+                     Krabi Town
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_df6f5acba06eb7f6accffaed549c1ac9 = L.marker(
+                [8.0316, 98.8225],
+                {}
+            ).addTo(map_3ad8e441119aa275b2374c310d68bf43);
+        
+    
+            var icon_df81419b097c2d141d0f74d8f5cf2b47 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_df6f5acba06eb7f6accffaed549c1ac9.setIcon(icon_df81419b097c2d141d0f74d8f5cf2b47);
+        
+    
+        var popup_6b426333801e5fddeaf5385c6631456f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_58840081dcc05155b44b99944668f867 = $(`<div id="html_58840081dcc05155b44b99944668f867" style="width: 100.0%; height: 100.0%;">Ao Nang: Base para ir a Railay Beach</div>`)[0];
+            popup_6b426333801e5fddeaf5385c6631456f.setContent(html_58840081dcc05155b44b99944668f867);
+        
+
+        marker_df6f5acba06eb7f6accffaed549c1ac9.bindPopup(popup_6b426333801e5fddeaf5385c6631456f)
+        ;
+
+        
+    
+    
+            marker_df6f5acba06eb7f6accffaed549c1ac9.bindTooltip(
+                `<div>
+                     Ao Nang
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9e4dc3d976d4ce04e96a33ea617972cb = L.marker(
+                [8.0076, 98.839],
+                {}
+            ).addTo(map_3ad8e441119aa275b2374c310d68bf43);
+        
+    
+            var icon_2f9b154de0b33e0796f7f9cd239fa0cf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9e4dc3d976d4ce04e96a33ea617972cb.setIcon(icon_2f9b154de0b33e0796f7f9cd239fa0cf);
+        
+    
+        var popup_5b74035f84e7db769d829d131dfdd5eb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b88c9ea5e05cac6db11c2a4b88d1f177 = $(`<div id="html_b88c9ea5e05cac6db11c2a4b88d1f177" style="width: 100.0%; height: 100.0%;">Railay Beach (acceso en barca): Playas y cuevas espectaculares</div>`)[0];
+            popup_5b74035f84e7db769d829d131dfdd5eb.setContent(html_b88c9ea5e05cac6db11c2a4b88d1f177);
+        
+
+        marker_9e4dc3d976d4ce04e96a33ea617972cb.bindPopup(popup_5b74035f84e7db769d829d131dfdd5eb)
+        ;
+
+        
+    
+    
+            marker_9e4dc3d976d4ce04e96a33ea617972cb.bindTooltip(
+                `<div>
+                     Railay Beach (acceso en barca)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4782718ac7d5568473716ea7723d1bd2 = L.marker(
+                [7.924, 99.2688],
+                {}
+            ).addTo(map_3ad8e441119aa275b2374c310d68bf43);
+        
+    
+            var icon_0b8379667b0944b7898cd8c7ba658a31 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4782718ac7d5568473716ea7723d1bd2.setIcon(icon_0b8379667b0944b7898cd8c7ba658a31);
+        
+    
+        var popup_1d2a63e0480e03f87dd0960b64e2569e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c4792a9714c18173ad57f14a38505a1a = $(`<div id="html_c4792a9714c18173ad57f14a38505a1a" style="width: 100.0%; height: 100.0%;">Emerald Pool: Piscina natural en la selva</div>`)[0];
+            popup_1d2a63e0480e03f87dd0960b64e2569e.setContent(html_c4792a9714c18173ad57f14a38505a1a);
+        
+
+        marker_4782718ac7d5568473716ea7723d1bd2.bindPopup(popup_1d2a63e0480e03f87dd0960b64e2569e)
+        ;
+
+        
+    
+    
+            marker_4782718ac7d5568473716ea7723d1bd2.bindTooltip(
+                `<div>
+                     Emerald Pool
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1a4cbcd75664bfe74308ec6007545cd0 = L.marker(
+                [7.9319, 99.275],
+                {}
+            ).addTo(map_3ad8e441119aa275b2374c310d68bf43);
+        
+    
+            var icon_ec38ef92d4724026248a31fcfc65caf5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1a4cbcd75664bfe74308ec6007545cd0.setIcon(icon_ec38ef92d4724026248a31fcfc65caf5);
+        
+    
+        var popup_b2acfbbab45f2376073e96437baffc04 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3269d378b6029a7a0320f8bc88e57bd7 = $(`<div id="html_3269d378b6029a7a0320f8bc88e57bd7" style="width: 100.0%; height: 100.0%;">Klong Thom Hot Springs: Piscinas termales naturales</div>`)[0];
+            popup_b2acfbbab45f2376073e96437baffc04.setContent(html_3269d378b6029a7a0320f8bc88e57bd7);
+        
+
+        marker_1a4cbcd75664bfe74308ec6007545cd0.bindPopup(popup_b2acfbbab45f2376073e96437baffc04)
+        ;
+
+        
+    
+    
+            marker_1a4cbcd75664bfe74308ec6007545cd0.bindTooltip(
+                `<div>
+                     Klong Thom Hot Springs
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f67055f64fafdb24d538e818a792d0f2 = L.marker(
+                [8.0333, 98.902],
+                {}
+            ).addTo(map_3ad8e441119aa275b2374c310d68bf43);
+        
+    
+            var icon_694634af7d60f94486cd23913c526533 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f67055f64fafdb24d538e818a792d0f2.setIcon(icon_694634af7d60f94486cd23913c526533);
+        
+    
+        var popup_a2d66b21d1554e524808008233ea33c2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c154b005864186c2eeb30781a53d614e = $(`<div id="html_c154b005864186c2eeb30781a53d614e" style="width: 100.0%; height: 100.0%;">Koh Klang: Isla tranquila frente a Krabi Town</div>`)[0];
+            popup_a2d66b21d1554e524808008233ea33c2.setContent(html_c154b005864186c2eeb30781a53d614e);
+        
+
+        marker_f67055f64fafdb24d538e818a792d0f2.bindPopup(popup_a2d66b21d1554e524808008233ea33c2)
+        ;
+
+        
+    
+    
+            marker_f67055f64fafdb24d538e818a792d0f2.bindTooltip(
+                `<div>
+                     Koh Klang
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9ed71b36daef4ed0f20e74f31199e2de = L.marker(
+                [8.2, 98.7167],
+                {}
+            ).addTo(map_3ad8e441119aa275b2374c310d68bf43);
+        
+    
+            var icon_e9958bc88472802a1dd84426d1a310ab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9ed71b36daef4ed0f20e74f31199e2de.setIcon(icon_e9958bc88472802a1dd84426d1a310ab);
+        
+    
+        var popup_ce104868ee0fd014eddd82bfe1ec62fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_49a1fb7b31eb78ab8e1ff1a5a2b6bd05 = $(`<div id="html_49a1fb7b31eb78ab8e1ff1a5a2b6bd05" style="width: 100.0%; height: 100.0%;">Ao Leuk Beach: Playa tranquila y poco masificada</div>`)[0];
+            popup_ce104868ee0fd014eddd82bfe1ec62fd.setContent(html_49a1fb7b31eb78ab8e1ff1a5a2b6bd05);
+        
+
+        marker_9ed71b36daef4ed0f20e74f31199e2de.bindPopup(popup_ce104868ee0fd014eddd82bfe1ec62fd)
+        ;
+
+        
+    
+    
+            marker_9ed71b36daef4ed0f20e74f31199e2de.bindTooltip(
+                `<div>
+                     Ao Leuk Beach
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fee12bc58c522af756d02de282b9e7fd = L.marker(
+                [8.2782, 98.5897],
+                {}
+            ).addTo(map_3ad8e441119aa275b2374c310d68bf43);
+        
+    
+            var icon_60d42d74eaf769ae831a06b4153635bb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fee12bc58c522af756d02de282b9e7fd.setIcon(icon_60d42d74eaf769ae831a06b4153635bb);
+        
+    
+        var popup_d826782bfc566a1aa840a96a893b8cd2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c9e6c0bf4b3cca4d43b8f8b2323dab38 = $(`<div id="html_c9e6c0bf4b3cca4d43b8f8b2323dab38" style="width: 100.0%; height: 100.0%;">Laem Sak: Pueblo pesquero con vistas</div>`)[0];
+            popup_d826782bfc566a1aa840a96a893b8cd2.setContent(html_c9e6c0bf4b3cca4d43b8f8b2323dab38);
+        
+
+        marker_fee12bc58c522af756d02de282b9e7fd.bindPopup(popup_d826782bfc566a1aa840a96a893b8cd2)
+        ;
+
+        
+    
+    
+            marker_fee12bc58c522af756d02de282b9e7fd.bindTooltip(
+                `<div>
+                     Laem Sak
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dfef5acb6ebed74ec2dd02e618919a2f = L.marker(
+                [8.4506, 98.5306],
+                {}
+            ).addTo(map_3ad8e441119aa275b2374c310d68bf43);
+        
+    
+            var icon_cc05c80a5b8da5263bb17230ff70969b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_dfef5acb6ebed74ec2dd02e618919a2f.setIcon(icon_cc05c80a5b8da5263bb17230ff70969b);
+        
+    
+        var popup_325096d126d808b2db99316b94ce0f17 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ac578c69f4d0d97436161e107403cc45 = $(`<div id="html_ac578c69f4d0d97436161e107403cc45" style="width: 100.0%; height: 100.0%;">Phang Nga Town: Base para visitar cuevas y naturaleza</div>`)[0];
+            popup_325096d126d808b2db99316b94ce0f17.setContent(html_ac578c69f4d0d97436161e107403cc45);
+        
+
+        marker_dfef5acb6ebed74ec2dd02e618919a2f.bindPopup(popup_325096d126d808b2db99316b94ce0f17)
+        ;
+
+        
+    
+    
+            marker_dfef5acb6ebed74ec2dd02e618919a2f.bindTooltip(
+                `<div>
+                     Phang Nga Town
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2f82d128bfe17d3ba6a6cedf8da8f754 = L.marker(
+                [8.3984, 98.531],
+                {}
+            ).addTo(map_3ad8e441119aa275b2374c310d68bf43);
+        
+    
+            var icon_592dec26f986e0388aae4d9a81cd62c8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2f82d128bfe17d3ba6a6cedf8da8f754.setIcon(icon_592dec26f986e0388aae4d9a81cd62c8);
+        
+    
+        var popup_f198e63ec577875c3ef880a63b0cd338 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5e5b361548c8e317d947a92cc3235807 = $(`<div id="html_5e5b361548c8e317d947a92cc3235807" style="width: 100.0%; height: 100.0%;">Wat Suwan Khuha: Templo del Buda en la cueva</div>`)[0];
+            popup_f198e63ec577875c3ef880a63b0cd338.setContent(html_5e5b361548c8e317d947a92cc3235807);
+        
+
+        marker_2f82d128bfe17d3ba6a6cedf8da8f754.bindPopup(popup_f198e63ec577875c3ef880a63b0cd338)
+        ;
+
+        
+    
+    
+            marker_2f82d128bfe17d3ba6a6cedf8da8f754.bindTooltip(
+                `<div>
+                     Wat Suwan Khuha
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_80a37e771f0c24c13dabdd2bbf08f767 = L.marker(
+                [8.3206, 98.316],
+                {}
+            ).addTo(map_3ad8e441119aa275b2374c310d68bf43);
+        
+    
+            var icon_b7f776b882233f12671b744df6b1ee04 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_80a37e771f0c24c13dabdd2bbf08f767.setIcon(icon_b7f776b882233f12671b744df6b1ee04);
+        
+    
+        var popup_bd7ea6ba2858a551e9c490a17310efef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4eb6decbc5a25c31fbac513c60d998e4 = $(`<div id="html_4eb6decbc5a25c31fbac513c60d998e4" style="width: 100.0%; height: 100.0%;">Sarasin Bridge: Puente de entrada a Phuket</div>`)[0];
+            popup_bd7ea6ba2858a551e9c490a17310efef.setContent(html_4eb6decbc5a25c31fbac513c60d998e4);
+        
+
+        marker_80a37e771f0c24c13dabdd2bbf08f767.bindPopup(popup_bd7ea6ba2858a551e9c490a17310efef)
+        ;
+
+        
+    
+    
+            marker_80a37e771f0c24c13dabdd2bbf08f767.bindTooltip(
+                `<div>
+                     Sarasin Bridge
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9e4b2f6c2a0613f6c7ce84cf2eff654d = L.marker(
+                [8.1712, 98.2956],
+                {}
+            ).addTo(map_3ad8e441119aa275b2374c310d68bf43);
+        
+    
+            var icon_545fcde60422c0c5aeeb976817f94500 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9e4b2f6c2a0613f6c7ce84cf2eff654d.setIcon(icon_545fcde60422c0c5aeeb976817f94500);
+        
+    
+        var popup_67c48bd46b6ac7aabf89a1950b98dd65 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b2b387d36af11e2147b7ff5dafd1c4c5 = $(`<div id="html_b2b387d36af11e2147b7ff5dafd1c4c5" style="width: 100.0%; height: 100.0%;">Mai Khao Beach (Phuket): Playa tranquila al norte de la isla</div>`)[0];
+            popup_67c48bd46b6ac7aabf89a1950b98dd65.setContent(html_b2b387d36af11e2147b7ff5dafd1c4c5);
+        
+
+        marker_9e4b2f6c2a0613f6c7ce84cf2eff654d.bindPopup(popup_67c48bd46b6ac7aabf89a1950b98dd65)
+        ;
+
+        
+    
+    
+            marker_9e4b2f6c2a0613f6c7ce84cf2eff654d.bindTooltip(
+                `<div>
+                     Mai Khao Beach (Phuket)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_93548ef4eec5d063b73ec25179860143 = L.polyline(
+                [[8.0726, 98.9105], [8.0316, 98.8225], [8.0076, 98.839], [7.924, 99.2688], [7.9319, 99.275], [8.0333, 98.902], [8.2, 98.7167], [8.2782, 98.5897], [8.4506, 98.5306], [8.3984, 98.531], [8.3206, 98.316], [8.1712, 98.2956]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3ad8e441119aa275b2374c310d68bf43);
+        
+</script>
+</html>
